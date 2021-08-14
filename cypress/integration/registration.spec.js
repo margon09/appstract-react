@@ -146,7 +146,7 @@ describe("Tests the registration forms",()=>{
             .should('be.true')
         cy.get("form")
             .submit()
-        cy.get("div.message").should('exist');    
+        cy.get("div#message").should('exist');    
 
     });
 });
