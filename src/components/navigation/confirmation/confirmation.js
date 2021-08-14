@@ -5,7 +5,9 @@ import Button from '../../UI/Button/Button'
 const Confirmation = props => {
 	return (
 		<div
-			className={(classes.Popup, 'message')}
+			// className={(classes.Popup, 'message')}
+			className={classes.Popup}
+			id={'message'}
 			style={{
 				background: 'linear-gradient(270deg, #cef2fa 0%, #59bfef 100%)'
 			}}

@@ -5,7 +5,8 @@ import Button from '../../UI/Button/Button'
 const ErrorMessage = props => {
 	return (
 		<div
-			className={(classes.Popup, 'message')}
+			className={classes.Popup}
+			id={'message'}
 			style={{
 				background:
 					'linear-gradient(90deg, rgb(72, 20, 72) 0%, rgb(164, 94, 164) 100%)'
