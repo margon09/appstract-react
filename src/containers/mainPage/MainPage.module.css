@@ -1,0 +1,74 @@
+.MainPage {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	flex-grow: 1;
+	width: 100%;
+	background: #eee;
+}
+h1 {
+	text-align: center;
+	color: #462523;
+	font-size: 22px;
+}
+h2 {
+	text-align: center;
+	font-family: 'myriad-pro', sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: center;
+	padding: 5px;
+	font-family: 'myriad-pro', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+}
+.leftBox h2,
+.leftBox p {
+	color: #ddd3ce;
+}
+
+.signUpBoxes {
+	padding: auto;
+	margin: 10px;
+	width: 50%;
+}
+.boxes {
+	margin-top: 80px;
+}
+
+.leftBox {
+	margin-left: 25%;
+	width: 45%;
+	height: auto;
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 8px;
+	border: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+	transition: border, box-shadow 0.3s;
+	cursor: default;
+}
+.leftBox:hover {
+	box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.25);
+}
+.leftBox {
+	background: #0d313d;
+}
+
+@media (max-width: 800px) {
+	.boxes {
+		flex-direction: column;
+		width: 100%;
+	}
+	.signUpBoxes {
+		width: 70%;
+	}
+	.leftBox {
+		margin-left: 0;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
