@@ -1,0 +1,81 @@
+.Form {
+	margin: 10px;
+}
+
+.checkBoxDiv label {
+	margin-bottom: 3px;
+	padding: 0;
+	display: block;
+	font-weight: 600;
+	color: #0d313d;
+}
+
+.checkBoxDiv {
+	margin-left: 450px;
+	margin-top: -50px;
+	width: 400px;
+}
+
+.labelForm,
+.checkBox {
+	margin: 30px;
+	padding: 0;
+	font-weight: 600;
+	color: #0d313d;
+}
+
+.labelForm select {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.checkBox {
+	margin-left: 190px;
+}
+
+input[type='checkbox'] {
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+}
+
+input[type='checkbox']:checked {
+	filter: invert(0%) sepia(80%) saturate(844%) hue-rotate(304deg)
+		brightness(102%) contrast(108%);
+}
+
+.btnSubmit {
+	position: relative;
+	margin-left: 30px;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'myriad-pro', sans-serif;
+	font-size: 1.15rem;
+	font-weight: 600;
+	width: 120px;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px solid #0d313d;
+	text-align: center;
+	color: #0d313d;
+	background: rgb(148, 181, 166);
+	transition: color 0.6s;
+	cursor: pointer;
+}
+.btnSubmit:hover,
+.btnSubmit:focus {
+	background: #0b4765;
+	color: #ffe8db;
+	border: 1px solid #ffe8db;
+	cursor: pointer;
+}
+
+@media (max-width: 800px) {
+	.checkBoxDiv {
+		margin-left: 0px;
+		margin-top: 0px;
+		width: 80%;
+	}
+}

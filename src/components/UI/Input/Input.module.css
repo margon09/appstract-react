@@ -1,0 +1,47 @@
+.Input {
+	margin: 15px;
+	border: none;
+	border-bottom: 1px solid #0d313d;
+	outline: none;
+}
+
+.Input input {
+	border-style: none;
+	background: #eee;
+	border: none;
+	padding: 7px;
+	margin: 0 0 5px;
+	width: 100%;
+	outline: none;
+	transition: all 300ms ease-in-out;
+}
+
+.Input span {
+	color: #f01f30;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.Input.invalid label {
+	color: #f01f30;
+}
+
+.Form {
+	margin: 20px;
+	width: 400px;
+	display: inline-block;
+}
+
+.Form label {
+	margin-bottom: 3px;
+	padding: 0;
+	display: block;
+	font-weight: 600;
+	color: #0d313d;
+}
+
+@media (max-width: 800px) {
+	.Form {
+		width: 60%;
+	}
+}
