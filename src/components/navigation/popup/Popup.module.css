@@ -3,7 +3,7 @@
 	top: 50px;
 	width: 70%;
 	height: 80%;
-	overflow: hidden;
+	overflow: auto;
 	background-color: #eee;
 	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
 	border-radius: 8px;
