@@ -7,6 +7,8 @@ import Backdrop from '../../components/UI/Backdrop/Backdrop'
 import Button from '../../components/UI/Button/Button'
 import RegistrationForm from '../../components/UI/RegistrationForm/RegistrationForm'
 import axios from 'axios'
+import banner from './img/banner.png'
+import banner2 from './img/banner2.png'
 
 class MainPage extends Component {
 	state = {
@@ -17,10 +19,12 @@ class MainPage extends Component {
 		gender: null,
 		email: null,
 		subscription: false,
-		response: null
+		response: null,
+		banner: false
 	}
 
 	togglePopup = () => this.setState({ menu: !this.state.menu })
+	toggleBanner = () => this.setState({ banner: !this.state.banner })
 	menuCloseHandler = () => this.setState({ menu: false })
 	closeMessage = () => this.setState({ response: null })
 	setName = e => this.setState({ name: e.target.value })
@@ -90,6 +94,11 @@ class MainPage extends Component {
 				)}
 
 				<div className={classes.signUpBoxes}>
+					<img
+						className={classes.banner}
+						src={this.state.banner ? banner2 : banner}
+						onClick={this.toggleBanner}
+					/>
 					<h1>Welcome to the discount offer finder app</h1>
 					<div className={classes.boxes}>
 						<div className={classes.leftBox}>
