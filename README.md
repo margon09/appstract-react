@@ -13,6 +13,8 @@ Open http://localhost:3000 to view it in the browser.
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
+Also shared on codesandbox.io. Open https://codesandbox.io/s/appstract-react-prkw8 to view.
+
 Also deployed on Heroku: Open https://appstract.herokuapp.com/ to view it in the browser. The Heroku deployment might take up to 10 sec to load.
 
 npm test
