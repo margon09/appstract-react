@@ -6,6 +6,16 @@
 	width: 100%;
 	background: #eee;
 }
+
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 30%;
+	cursor: pointer;
+}
+
 h1 {
 	text-align: center;
 	color: #462523;
@@ -70,5 +80,9 @@ p {
 		margin-left: 0;
 		width: 100%;
 		margin-bottom: 10px;
+	}
+	.banner {
+		width: 100%;
+		height: 30%;
 	}
 }
